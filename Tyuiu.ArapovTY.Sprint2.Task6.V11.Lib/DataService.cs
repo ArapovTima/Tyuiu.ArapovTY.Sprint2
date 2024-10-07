@@ -28,18 +28,18 @@ namespace Tyuiu.ArapovTY.Sprint2.Task6.V11.Lib
             }
             switch (m)
             {
-                case 1: return $"{n}.0{m}";
-                case 2: return $"{n}.0{m}";
-                case 3: return $"{n}.0{m}"; ;
-                case 4: return $"{n}.0{m}";
-                case 5: return $"{n}.0{m}";
-                case 6: return $"{n}.0{m}";
-                case 7: return $"{n}.0{m}";
-                case 8: return $"{n}.0{m}";
-                case 9: return $"{n}.0{m}";
-                case 10: return $"{n}.0{m}";
-                case 11: return $"{n}.0{m}.{g}";
-                case 12: return $"{n}.0{m}";
+                case 1: return $"0{n}.0{m}.{g}";
+                case 2: return $"0{n}.0{m}.{g}";
+                case 3: return $"0{n}.0{m}.{g}"; ;
+                case 4: return $"0{n}.0{m}.{g}";
+                case 5: return $"0{n}.0{m}.{g}";
+                case 6: return $"0{n}.0{m}.{g}";
+                case 7: return $"0{n}.0{m}.{g}";
+                case 8: return $"0{n}.0{m}.{g}"; 
+                case 9: return $"{n}.0{m}.{g}"; ;
+                case 10: return $"{n}.{m}.{g}"; ;
+                case 11: return $"{n}.{m}.{g}";
+                case 12: return $"{n}.{m}.{g}";
                 default: throw new ArgumentException("Месяц должен быть от 1 до 12");
             }
         }
