@@ -36,7 +36,7 @@ namespace Tyuiu.ArapovTY.Sprint2.Task6.V11.Lib
                 case 6: return $"0{n}.0{m}.{g}";
                 case 7: return $"0{n}.0{m}.{g}";
                 case 8: return $"0{n}.0{m}.{g}"; 
-                case 9: return $"{n}.0{m}.{g}"; ;
+                case 9: return $"0{n}.0{m}.{g}"; ;
                 case 10: return $"{n}.{m}.{g}"; ;
                 case 11: return $"{n}.{m}.{g}";
                 case 12: return $"{n}.{m}.{g}";
